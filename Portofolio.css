@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(242, 247, 252);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    display: flex;
+    gap: 65em;
+    font-family:cursive;
+    
+}
+.colorh1 {
+    color: #F65F13;
+}
+#boutton {
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    cursor: pointer;
+    border: 2px solid #c3c4c5;
+    background-color: #EAF2FA;
+}
+#png {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.conte {
+    justify-content: center;
+    display: flex;
+    gap: 1em; 
+}
+.carte1 {
+    background-color: white;
+    width: 25em;
+    height: 47em;
+    border-radius: 30px;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content {
+    margin-bottom: -8em;
+}
+.content h1 {
+    font-family:cursive;
+}
+#text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+#img1 {
+    width: 12em;
+    height: 12em;
+    position: fixed;
+    margin-top: -40em;
+    border-radius: 100%;
+    background-size: cover;
+    border: #E0E8EF solid 12px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    cursor: pointer;
+    
+}
+.imgs1 {
+    width: 1.5em;
+    height: 1.5em;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+.imgs1:hover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.imgse {
+    background-color: aliceblue;
+    width: 3em;
+    height: 3em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.content2 {
+    background-color: #F2F5F9;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding-left: 1.5em; 
+    padding-right: 1.5em; 
+    padding-bottom: 1em;
+    /* align-items:flex-start; */
+}
+
+.conteneure1 {
+    display: flex;
+    gap: 1em;
+    border-bottom: solid 1px rgb(204, 204, 204);
+    width: 18em;
+    font-family: cursive;
+}
+.facebook {
+    margin-top: 2.2em;
+    width: 1.5em;
+    height: 1.5em;
+}
+.textGray {
+    color: gray;
+}
+
+.button2 {
+    margin-left: 4.5em;
+    padding: 1em;
+    border-radius: 30px;
+    background: #FF9C1C;
+    background: linear-gradient(95deg, rgba(255, 156, 28, 1) 58%, rgba(236, 28, 9, 1) 96%);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+#download {
+    width: 1em;
+    height: 1em;
+}
+
+.carte2s {
+    background-color: white;
+    height: 47em;
+    width: 50em;
+    border-radius: 30px;
+    margin-top: 5em;
+    padding: 1px ;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+
+.carte2s h1 {
+    font-family: cursive;
+}
+
+.content-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F7FD;
+    height: 5em;
+    width: 30em;
+    float: inline-end;
+    gap: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px ;
+}
+
+
+.bu {
+    background-color: #E0E8EF;
+    border: none;
+    border-radius: 10px;
+    height: 5em;
+    width: 6em;
+    cursor: pointer;
+}
+
+.bu-image {
+    height: 2em;
+    width: 2em;
+}
+.carte2s1 {
+    display: flex;
+    gap: 2em;
+    
+}
+
+.carte2s2 {
+    width: 22em;
+    height: 3px;
+    background-color: #F65F13;
+    margin-top: 2.5em;
+}
+.resume {
+    display: flex;
+    gap: 5em;
+}
+
+.carda {
+    display: flex;
+    gap: 2em;
+    border-radius: 20px;
+}
+.cardb {
+    display: flex;
+    border-radius: 20px;
+    gap: 2em;
+}
+.images {
+    width: 1em;
+    height: 1em;
+}
+
+.Premier {
+    width: 40em;
+    height: 12em;
+    background-color: #FFEBD1;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Premier p {
+    text-align: justify;
+}
+
+.deuxième {
+    width: 40em;
+    height: 12em;
+    background-color: #F2F7FB;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.deuxième p {
+    text-align: justify;
+}
+
+.Premiere {
+    width: 20em;
+    height: 8em;
+    background-color: #FFEFDA;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+.deuxièm {
+    width: 20em;
+    height: 8em;
+    background-color: #FFEFDA;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+.deuxièm p {
+    text-align: justify;
+}
+
+.date {
+    color: grey;
+}
+
+.work {
+    display: flex;
+    gap: 2em;
+}
+
+.js {
+    background-color: #E0E8F0;
+    text-align: justify;
+    /* height: 1.5em; */
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.Premieres {
+    width: 30em;
+    height: 10em;
+    background-color: #FFEFDA;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-top: 18px;
+}
+.deux {
+    width: 30em;
+    height: 10em;
+    background-color: #E0E8F0;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-top: 18px;
+}
+
+.form {
+    background-color: #F7FBFC;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+#input {
+    border: none;
+    border-bottom: solid 1px #E3E8EE;
+    background-color: #F7FBFC;
+    width: 80%;
+    outline: none;
+}
+
+#submit {
+    padding: 1em;
+    border-color: #FF9C1C;
+    border-radius: 30px;
+    background-color: #F7FBFC;
+    width: 8em;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #FF9C1C;
+    border: #FF9C1C;
+}
+
+
+ @media screen and (max-width:1440px) { 
+    
+    header {
+        margin-top: -1em;
+    
+    }
+
+    .conte {
+        margin-top: -4em;
+    } 
+  
+}
+ @media screen and (max-width:1024px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        gap: 45em;
+        overflow: scroll;
+        
+    
+    }
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    #boutton {
+        width: 3em;
+        height: 3em;
+        border: 1px solid #c3c4c5;
+    }
+
+    .conte {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carte2s {
+        background-color: #FF9C1C;
+        width: 35em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .content-Button {
+        height: 4em;
+        width: 20em;
+    }
+  
+}
